@@ -1,0 +1,124 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "CatCafeApi",
+    "description": "猫カフェのポータルサイトと管理画面で使用するAPIを定義",
+    "version": "0.1.0"
+  },
+  "tags": [
+    {
+      "name": "notice_command",
+      "description": "お知らせ(書き込み)"
+    },
+    {
+      "name": "notice_query",
+      "description": "お知らせ(読み取り)"
+    },
+    {
+      "name": "store_command",
+      "description": "店舗(書き込み)"
+    },
+    {
+      "name": "store_query",
+      "description": "店舗(読み取り)"
+    },
+    {
+      "name": "contact_command",
+      "description": "お問い合わせ(書き込み)"
+    },
+    {
+      "name": "contact_query",
+      "description": "お問い合わせ(読み取り)"
+    },
+    {
+      "name": "frequently_asked_question_command",
+      "description": "FAQ(書き込み)"
+    },
+    {
+      "name": "frequently_asked_question_query",
+      "description": "FAQ(読み取り)"
+    },
+    {
+      "name": "event_command",
+      "description": "イベント(書き込み)"
+    },
+    {
+      "name": "event_query",
+      "description": "イベント(読み取り)"
+    },
+    {
+      "name": "display_menu_command",
+      "description": "表示表示メニュー(書き込み)"
+    },
+    {
+      "name": "display_menu_query",
+      "description": "表示表示メニュー(読み取り)"
+    },
+    {
+      "name": "provide_service_command",
+      "description": "提供サービス(書き込み)"
+    },
+    {
+      "name": "provide_service_query",
+      "description": "提供サービス(読み取り)"
+    },
+    {
+      "name": "cast_command",
+      "description": "キャスト(書き込み)"
+    },
+    {
+      "name": "cast_query",
+      "description": "キャスト(読み取り)"
+    },
+    {
+      "name": "congestion",
+      "description": "混雑状況"
+    },
+    {
+      "name": "link",
+      "description": "外部/SNSリンク"
+    },
+    {
+      "name": "authentication",
+      "description": "認証"
+    }
+  ],
+  "servers": [
+    {
+      "url": "http://{username}:{port}/{basePath}",
+      "description": "ローカル環境",
+      "variables": {
+        "username": {
+          "default": "localhost"
+        },
+        "port": {
+          "enum": [
+            "8080"
+          ],
+          "default": "8080"
+        }
+      }
+    }
+  ],
+  "paths": {
+    "/{cats}/notice": {
+      "$ref": "paths/notice/cats_notice.json"
+    },
+    "/{cats}/notices": {
+      "$ref": "paths/notice/cats_notices.json"
+    },
+    "/{cats}/notices/{notice_id}": {
+      "$ref": "paths/notice/cats_notices_notice_id.json"
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-API-KEY",
+        "description": "A api key"
+      }
+    }
+  }
+}
