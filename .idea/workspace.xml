@@ -5,42 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6fbbc39-7bca-4e21-8e6d-6375f3e0667b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/notice/cats_notice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/notice/cats_notices.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/notice/cats_notices_notice_id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/root.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/openapi_join.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-join/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-join/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/openapi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/authentication/request.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/authentication/request.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/authentication/response.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/authentication/response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/cast/request.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/cast/request.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/cast/response.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/cast/response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/contact/request.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/contact/request.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/contact/response.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/contact/response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/display_menu/request.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/display_menu/request.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/display_menu/response.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/display_menu/response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/error_response/authenticationResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/error_response/authenticationResponse.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/error_response/validationResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/error_response/validationResponse.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/event/request.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/event/request.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/event/response.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/event/response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/frequently_asked_question/request.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/frequently_asked_question/request.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/frequently_asked_question/response.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/frequently_asked_question/response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/notice/request.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/notice/request.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/notice/response.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/notice/response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/provide_service/request.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/provide_service/request.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/provide_service/response.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/provide_service/response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/store/request.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/store/request.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/store/response.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/store/response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/success_response/commonResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/success_response/commonResponse.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/success_response/patchResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/success_response/patchResponse.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/schemas/success_response/postResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/components/schemas/success_response/postResponse.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/apigenerate.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/apigenerate.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-site/src/main/riot/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/micro-site/src/main/riot/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/mac/docker-redoc/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mac/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mac/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mac/docker-mysql/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mac/docker-mysql/conf/my.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mac/docker-mysql/init/1_ddl.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mac/docker-phpmyadmin/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mac/docker-phpmyadmin/sessions/.dockerignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,20 +50,20 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
-                <item name="micro-api" type="2d1252cf:ModuleNode" />
+                <item name="micro-site" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
-                <item name="micro-api" type="2d1252cf:ModuleNode" />
+                <item name="micro-site" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
-                <item name="micro-api" type="2d1252cf:ModuleNode" />
+                <item name="micro-site" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="openapi tools" type="c8890929:TasksNode$1" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -114,9 +87,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/micro-join" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker/mac/docker-redoc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -125,6 +99,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/mac/docker-redoc" />
       <recent name="$PROJECT_DIR$/micro-join" />
       <recent name="$PROJECT_DIR$/gradle" />
       <recent name="$PROJECT_DIR$/apidoc/openapi/paths" />
@@ -134,28 +109,7 @@
       <recent name="$PROJECT_DIR$/apidoc/openapi/components" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.catcafe-sample:micro-api [openApiGenerate]">
-    <configuration name="catcafe-sample:micro-api [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/micro-api" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="bootRun" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.catcafe-sample:micro-site [generateClient]">
     <configuration name="catcafe-sample:micro-api [openApiGenerate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -240,6 +194,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="catcafe-sample:micro-site [generateClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/micro-site" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ApiApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="CatCafe-Sample.micro-api.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="mabubu0203.com.github.catcafe.api.ApiApp" />
@@ -272,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.catcafe-sample:micro-api [openApiGenerate]" />
+        <item itemvalue="Gradle.catcafe-sample:micro-site [generateClient]" />
         <item itemvalue="Gradle.catcafe-sample:micro-join [openApiGenerate]" />
-        <item itemvalue="Gradle.catcafe-sample:micro-api [openApiValidate]" />
         <item itemvalue="Gradle.catcafe-sample:micro-join [openApiValidate]" />
-        <item itemvalue="Gradle.catcafe-sample:micro-api [bootRun]" />
+        <item itemvalue="Gradle.catcafe-sample:micro-api [openApiGenerate]" />
+        <item itemvalue="Gradle.catcafe-sample:micro-api [openApiValidate]" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +264,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612872613949</updated>
       <workItem from="1612872616613" duration="1370000" />
-      <workItem from="1612874028749" duration="3848000" />
+      <workItem from="1612874028749" duration="5756000" />
     </task>
     <servers />
   </component>

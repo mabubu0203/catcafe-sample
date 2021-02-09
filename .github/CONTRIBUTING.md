@@ -15,22 +15,20 @@ IntelliJ IDEAを使用します。
 ## 起動方法
 
 1. 当プロジェクトをIntelliJ IDEAにGradleProjectとしてclone
-1. docker-composeよりMysqlを起動  
+1. openapi.jsonをgenerate(`:micro-join -> Tasks -> openapi tools -> openApiGenerate`)
+1. docker-composeよりOpenApi/Redocを起動  
    `$ cd docker/mac`  
    `$ docker-compose -f docker-compose.yml build`  
    `$ docker-compose -f docker-compose.yml up -d`
-1. GradleタスクよりbootRun(`:micro-api -> Tasks -> application -> bootRun`)
-1. Gradleタスクよりstart(`:micro-site -> Tasks -> other -> start`)
+1. Javaファイル生成(`:micro-api -> Tasks -> openapi tools -> openApiGenerate`)
+1. axios-frontを生成(`:micro-site -> Tasks -> other -> generateClient`)
 
 ### Endpoints
 
 [OpenApi(Api)][]
-[OpenApi(Site)][]
-[OpenApi(Admin)][]
 [Site(Riot)][]
-[Admin(Vue)][]
-[phpMyAdmin][]
 [openapi-ui][]
+[ReDoc][]
 
 ## 停止方法
 
@@ -43,14 +41,8 @@ IntelliJ IDEAを使用します。
 
 [OpenApi(Api)]: http://localhost:9001/CatCafeApi/swagger-ui.html            "OpenApi(Api)"
 
-[OpenApi(Site)]: http://localhost:9011/CatCafeSite/swagger-ui.html          "OpenApi(Site)"
-
-[OpenApi(Admin)]: http://localhost:9021/CatCafeAdmin/swagger-ui.html        "OpenApi(Admin)"
-
 [Site(Riot)]: http://localhost:9011/CatCafeSite/                            "Site(Riot)"
 
-[Admin(Vue)]: http://localhost:9021/CatCafeAdmin/                           "Admin(Vue)"
-
-[phpMyAdmin]: http://localhost:8021/                                        "phpMyAdmin"
-
 [OpenApi-UI]: http://127.0.0.1:8002/                                        "openapi-ui"
+
+[ReDoc]: http://127.0.0.1:8081                                              "ReDoc"
