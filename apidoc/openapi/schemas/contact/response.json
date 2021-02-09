@@ -1,0 +1,38 @@
+{
+  "definitions": {
+    "contact_search_response": {
+      "description": "一覧レスポンス",
+      "type": "object",
+      "properties": {
+        "contacts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/model/contact_detail"
+          }
+        }
+      }
+    },
+    "contact_find_response": {
+      "description": "詳細レスポンス",
+      "type": "object",
+      "properties": {
+        "contacts": {
+          "$ref": "#/model/contact_detail"
+        }
+      }
+    }
+  },
+  "model": {
+    "contact_detail": {
+      "description": "お問い合わせ詳細",
+      "type": "object",
+      "properties": {
+        "id": {
+          "description": "お問い合わせID",
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    }
+  }
+}

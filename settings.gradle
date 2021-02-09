@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'CatCafe-Sample'
+include(
+
+        'micro-api',
+        'micro-site'
+)

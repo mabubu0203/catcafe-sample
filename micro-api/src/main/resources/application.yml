@@ -1,0 +1,129 @@
+spring:
+  profiles:
+    active: local
+
+---
+spring:
+  application:
+    name: micro-api
+  devtools:
+    livereload:
+      enabled: true
+      port: 35219
+    restart:
+      enabled: true
+      poll-interval: 1000
+  main:
+    web-application-type: reactive
+  resources:
+    chain:
+      html-application-cache: true
+      enabled: true
+      strategy:
+        content:
+          enabled: true
+          paths: /webjars/swagger-ui/**.*
+  data:
+    jpa:
+      repositories:
+        enabled: true
+  datasource:
+    continue-on-error: false
+    driverClassName: com.mysql.cj.jdbc.Driver
+    generate-unique-name: false
+    password: root
+    sql-script-encoding: UTF-8
+    url: jdbc:mysql://localhost:3306/catcafe?useSSL=false&autoReconnect=true&reWriteBatchedInserts=true
+    username: root
+  h2:
+    console:
+      enabled: false
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+        generate_statistics: true
+        order_inserts: true
+        order_updates: true
+        jdbc:
+          batch_versioned_data: true
+          batch_size: 100
+    show-sql: true
+server:
+  port: 9001
+  servlet:
+    context-path: /CatCafeApi
+  http2:
+    enabled: true
+logging:
+  level:
+    org:
+      springframework: INFO
+  file:
+    name: micro-api.log
+management:
+  endpoint:
+    auditevents:
+      enabled: true
+    beans:
+      enabled: true
+    conditions:
+      enabled: true
+    configprops:
+      enabled: true
+    env:
+      enabled: true
+    health:
+      enabled: true
+    heapdump:
+      enabled: true
+    info:
+      enabled: true
+    jolokia:
+      enabled: true
+    logfile:
+      enabled: true
+    loggers:
+      enabled: true
+    mappings:
+      enabled: true
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+    scheduledtasks:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: auditevents,beans,conditions,configprops,env,health,heapdump,info,jolokia,logfile,loggers,refresh,mappings,metrics
+  health:
+    db:
+      enabled: true
+    defaults:
+      enabled: true
+  info:
+    build:
+      enabled: true
+    defaults:
+      enabled: true
+    env:
+      enabled: true
+    git:
+      enabled: true
+springdoc:
+  api-docs:
+    groups:
+      enabled: true
+    resolve-schema-properties: true
+  model-and-view-allowed: true
+  show-actuator: true
+  swagger-ui:
+    path: /swagger-ui.html
+    displayOperationId: true
+    display-query-params: true
+    display-request-duration: true
+    showCommonExtensions: true
+    showExtensions: true
