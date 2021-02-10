@@ -118,6 +118,15 @@
     },
     "/{cats}/stores/{store_id}": {
       "$ref": "./paths/store/cats_stores_store_id.json"
+    },
+    "/{cats}/contact": {
+      "$ref": "./paths/contact/cats_contact.json"
+    },
+    "/{cats}/contacts": {
+      "$ref": "./paths/contact/cats_contacts.json"
+    },
+    "/{cats}/contacts/{contact_id}": {
+      "$ref": "./paths/contact/cats_contacts_contact_id.json"
     }
   },
   "components": {
