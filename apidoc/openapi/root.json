@@ -145,6 +145,15 @@
     },
     "/{cats}/events/{event_id}": {
       "$ref": "./paths/event/cats_events_event_id.json"
+    },
+    "/{cats}/display_menus": {
+      "$ref": "./paths/display_menu/cats_display_menus.json"
+    },
+    "/{cats}/stores/{store_id}/display_menu": {
+      "$ref": "./paths/display_menu/cats_stores_store_id_display_menu.json"
+    },
+    "/{cats}/stores/{store_id}/display_menus/{display_menu_id}": {
+      "$ref": "./paths/display_menu/cats_stores_store_id_display_menus_display_menu_id.json"
     }
   },
   "components": {
