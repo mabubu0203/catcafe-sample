@@ -7,6 +7,10 @@
   },
   "tags": [
     {
+      "name": "authentication",
+      "description": "認証"
+    },
+    {
       "name": "notice_command",
       "description": "お知らせ(書き込み)"
     },
@@ -77,10 +81,6 @@
     {
       "name": "link",
       "description": "外部/SNSリンク"
-    },
-    {
-      "name": "authentication",
-      "description": "認証"
     }
   ],
   "servers": [
@@ -101,6 +101,9 @@
     }
   ],
   "paths": {
+    "/{cats}/authentication/x_api_key/generate": {
+      "$ref": "./paths/authentication/cats_authentication_x_api_key_generate.json"
+    },
     "/{cats}/notice": {
       "$ref": "./paths/notice/cats_notice.json"
     },
@@ -154,6 +157,33 @@
     },
     "/{cats}/stores/{store_id}/display_menus/{display_menu_id}": {
       "$ref": "./paths/display_menu/cats_stores_store_id_display_menus_display_menu_id.json"
+    },
+    "/{cats}/provide_services": {
+      "$ref": "./paths/provide_service/cats_provide_services.json"
+    },
+    "/{cats}/stores/{store_id}/provide_service": {
+      "$ref": "./paths/provide_service/cats_stores_store_id_provide_service.json"
+    },
+    "/{cats}/stores/{store_id}/provide_services/{provide_service_id}": {
+      "$ref": "./paths/provide_service/cats_stores_store_id_provide_services_provide_service_id.json"
+    },
+    "/{cats}/cast_cat": {
+      "$ref": "./paths/cast/cats_cast_cat.json"
+    },
+    "/{cats}/cast_cats": {
+      "$ref": "./paths/cast/cats_cast_cats.json"
+    },
+    "/{cats}/cast_cats/{cast_cat_id}": {
+      "$ref": "./paths/cast/cats_cast_cats_cast_cat_id.json"
+    },
+    "/{cats}/casts": {
+      "$ref": "./paths/cast/cats_casts.json"
+    },
+    "/{cats}/stores/{store_id}/cast": {
+      "$ref": "./paths/cast/cats_stores_store_id_cast.json"
+    },
+    "/{cats}/stores/{store_id}/casts/{cast_id}": {
+      "$ref": "./paths/cast/cats_stores_store_id_casts_cast_id.json"
     }
   },
   "components": {
