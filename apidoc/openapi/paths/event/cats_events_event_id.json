@@ -18,9 +18,9 @@
       }
     },
     {
-      "name": "faq_id",
+      "name": "event_id",
       "in": "path",
-      "description": "FAQID",
+      "description": "イベントID",
       "required": true,
       "schema": {
         "type": "integer",
@@ -30,11 +30,11 @@
   ],
   "get": {
     "tags": [
-      "frequently_asked_question_query"
+      "event_query"
     ],
-    "summary": "FAQ詳細取得API",
-    "description": "FAQ詳細を1件取得する",
-    "operationId": "frequentlyAskedQuestionFind",
+    "summary": "イベント詳細取得API",
+    "description": "イベント詳細を1件取得する",
+    "operationId": "eventFind",
     "security": [
       {
         "ApiKeyAuth": []
@@ -46,7 +46,7 @@
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "../../components/schemas/frequently_asked_question/response.json#/definitions/frequently_asked_question_find_response"
+              "$ref": "../../components/schemas/event/response.json#/definitions/event_find_response"
             }
           }
         }
@@ -78,17 +78,17 @@
   },
   "patch": {
     "tags": [
-      "frequently_asked_question_command"
+      "event_command"
     ],
-    "summary": "FAQ更新API",
-    "description": "FAQを1件更新する",
-    "operationId": "frequentlyAskedQuestionUpdate",
+    "summary": "イベント更新API",
+    "description": "イベントを1件更新する",
+    "operationId": "eventUpdate",
     "requestBody": {
       "description": "リクエストボディ",
       "content": {
         "application/json": {
           "schema": {
-            "$ref": "../../components/schemas/frequently_asked_question/request.json#/definitions/frequently_asked_question_update"
+            "$ref": "../../components/schemas/event/request.json#/definitions/event_update"
           }
         }
       },
@@ -140,11 +140,11 @@
   },
   "delete": {
     "tags": [
-      "frequently_asked_question_command"
+      "event_command"
     ],
-    "summary": "FAQ削除API",
-    "description": "FAQを1件論理削除する",
-    "operationId": "frequentlyAskedQuestionDelete",
+    "summary": "イベント削除API",
+    "description": "イベントを1件論理削除する",
+    "operationId": "eventDelete",
     "parameters": [
       {
         "name": "version",

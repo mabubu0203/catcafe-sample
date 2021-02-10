@@ -20,17 +20,17 @@
   ],
   "post": {
     "tags": [
-      "frequently_asked_question_command"
+      "event_command"
     ],
-    "summary": "FAQ登録API",
-    "description": "FAQを1件登録する",
-    "operationId": "frequentlyAskedQuestionCreate",
+    "summary": "イベント登録API",
+    "description": "イベントを1件登録する",
+    "operationId": "eventCreate",
     "requestBody": {
       "description": "リクエストボディ",
       "content": {
         "application/json": {
           "schema": {
-            "$ref": "../../components/schemas/frequently_asked_question/request.json#/definitions/frequently_asked_question_create"
+            "$ref": "../../components/schemas/event/request.json#/definitions/event_create"
           }
         }
       },

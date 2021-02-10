@@ -127,6 +127,24 @@
     },
     "/{cats}/contacts/{contact_id}": {
       "$ref": "./paths/contact/cats_contacts_contact_id.json"
+    },
+    "/{cats}/frequently_asked_question": {
+      "$ref": "./paths/frequently_asked_question/cats_frequently_asked_question.json"
+    },
+    "/{cats}/frequently_asked_questions": {
+      "$ref": "./paths/frequently_asked_question/cats_frequently_asked_questions.json"
+    },
+    "/{cats}/frequently_asked_questions/{faq_id}": {
+      "$ref": "./paths/frequently_asked_question/cats_frequently_asked_questions_faq_id.json"
+    },
+    "/{cats}/event": {
+      "$ref": "./paths/event/cats_event.json"
+    },
+    "/{cats}/events": {
+      "$ref": "./paths/event/cats_events.json"
+    },
+    "/{cats}/events/{event_id}": {
+      "$ref": "./paths/event/cats_events_event_id.json"
     }
   },
   "components": {

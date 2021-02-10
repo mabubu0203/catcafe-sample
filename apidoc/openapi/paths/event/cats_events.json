@@ -18,24 +18,28 @@
       }
     }
   ],
-  "post": {
+  "get": {
     "tags": [
-      "frequently_asked_question_command"
+      "event_query"
     ],
-    "summary": "FAQ登録API",
-    "description": "FAQを1件登録する",
-    "operationId": "frequentlyAskedQuestionCreate",
-    "requestBody": {
-      "description": "リクエストボディ",
-      "content": {
-        "application/json": {
-          "schema": {
-            "$ref": "../../components/schemas/frequently_asked_question/request.json#/definitions/frequently_asked_question_create"
+    "summary": "イベント一覧取得API",
+    "description": "イベントを取得する",
+    "operationId": "eventSearch",
+    "parameters": [
+      {
+        "name": "store_ids",
+        "in": "query",
+        "description": "店舗ID",
+        "required": false,
+        "schema": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "format": "int32"
           }
         }
-      },
-      "required": true
-    },
+      }
+    ],
     "security": [
       {
         "ApiKeyAuth": []
@@ -47,7 +51,7 @@
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "../../components/schemas/success_response/postResponse.json#/definitions/post_object"
+              "$ref": "../../components/schemas/event/response.json#/definitions/event_search_response"
             }
           }
         }
