@@ -102,13 +102,22 @@
   ],
   "paths": {
     "/{cats}/notice": {
-      "$ref": "paths/notice/cats_notice.json"
+      "$ref": "./paths/notice/cats_notice.json"
     },
     "/{cats}/notices": {
-      "$ref": "paths/notice/cats_notices.json"
+      "$ref": "./paths/notice/cats_notices.json"
     },
     "/{cats}/notices/{notice_id}": {
-      "$ref": "paths/notice/cats_notices_notice_id.json"
+      "$ref": "./paths/notice/cats_notices_notice_id.json"
+    },
+    "/{cats}/store": {
+      "$ref": "./paths/store/cats_store.json"
+    },
+    "/{cats}/stores": {
+      "$ref": "./paths/store/cats_stores.json"
+    },
+    "/{cats}/stores/{store_id}": {
+      "$ref": "./paths/store/cats_stores_store_id.json"
     }
   },
   "components": {
