@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6fbbc39-7bca-4e21-8e6d-6375f3e0667b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/CONTRIBUTING.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/openapi_join.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/openapi_generate.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-join/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/openapi-generate/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-join/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/openapi-generate/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/apigenerate.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/generate_api.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/openapi_generate.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/generate_openapi_json.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/micro-api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openapi-generate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/openapi-generate/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +34,33 @@
         <task path="$PROJECT_DIR$/micro-join">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/openapi-generate">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
+                <item name="micro-api" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
+                <item name="micro-api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
+                <item name="micro-api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="openapi tools" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -84,11 +106,11 @@
       <recent name="$PROJECT_DIR$/apidoc/openapi/components" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.catcafe-sample:openapi-generate [openApiGenerate]">
-    <configuration name="catcafe-sample:micro-join [openApiGenerate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.catcafe-sample:micro-api [openApiGenerate]">
+    <configuration name="catcafe-sample:micro-api [openApiGenerate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/micro-join" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/micro-api" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -106,7 +128,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="catcafe-sample:micro-join [openApiValidate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="catcafe-sample:micro-join [openApiGenerate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/micro-join" />
@@ -117,7 +139,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="openApiValidate" />
+            <option value="openApiGenerate" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -222,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.catcafe-sample:micro-api [openApiGenerate]" />
         <item itemvalue="Gradle.catcafe-sample:openapi-generate [openApiGenerate]" />
         <item itemvalue="Gradle.catcafe-sample:openapi-generate [openApiValidate]" />
         <item itemvalue="Gradle.catcafe-sample:micro-site [generateClient]" />
         <item itemvalue="Gradle.catcafe-sample:micro-join [openApiGenerate]" />
-        <item itemvalue="Gradle.catcafe-sample:micro-join [openApiValidate]" />
       </list>
     </recent_temporary>
   </component>

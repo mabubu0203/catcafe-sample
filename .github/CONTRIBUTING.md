@@ -43,6 +43,6 @@ IntelliJ IDEAを使用します。
 
 [Site(Riot)]: http://localhost:9011/CatCafeSite/                            "Site(Riot)"
 
-[OpenApi-UI]: http://127.0.0.1:8002/                                        "openapi-ui"
+[OpenApi-UI]: http://localhost:8002/                                        "openapi-ui"
 
-[ReDoc]: http://127.0.0.1:8081                                              "ReDoc"
+[ReDoc]: http://localhost:8081                                              "ReDoc"
