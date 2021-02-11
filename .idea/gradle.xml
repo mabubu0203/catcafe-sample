@@ -10,8 +10,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/micro-api" />
-            <option value="$PROJECT_DIR$/micro-join" />
             <option value="$PROJECT_DIR$/micro-site" />
+            <option value="$PROJECT_DIR$/openapi-generate" />
           </set>
         </option>
       </GradleProjectSettings>

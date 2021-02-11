@@ -1,0 +1,3 @@
+apply from: "$rootDir/gradle/openapi_generate.gradle"
+
+compileJava.dependsOn tasks.openApiValidate, tasks.openApiGenerate

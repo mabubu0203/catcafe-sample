@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6fbbc39-7bca-4e21-8e6d-6375f3e0667b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/authentication/cats_authentication_x_api_key_generate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/cast/cats_cast_cat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/cast/cats_cast_cats.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/cast/cats_cast_cats_cast_cat_id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/cast/cats_casts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/cast/cats_stores_store_id_cast.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/cast/cats_stores_store_id_casts_cast_id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/provide_service/cats_provide_services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/provide_service/cats_stores_store_id_provide_service.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apidoc/openapi/paths/provide_service/cats_stores_store_id_provide_services_provide_service_id.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc/openapi/root.json" beforeDir="false" afterPath="$PROJECT_DIR$/apidoc/openapi/root.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/openapi_join.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/openapi_generate.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-join/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/openapi-generate/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-join/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/openapi-generate/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +39,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
-                <item name="micro-join" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
-                <item name="micro-join" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
-                <item name="micro-join" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="openapi tools" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -109,49 +84,7 @@
       <recent name="$PROJECT_DIR$/apidoc/openapi/components" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.catcafe-sample:micro-join [openApiGenerate]">
-    <configuration name="catcafe-sample:micro-api [openApiGenerate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/micro-api" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="openApiGenerate" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="catcafe-sample:micro-api [openApiValidate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/micro-api" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="openApiValidate" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.catcafe-sample:openapi-generate [openApiGenerate]">
     <configuration name="catcafe-sample:micro-join [openApiGenerate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -215,6 +148,48 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="catcafe-sample:openapi-generate [openApiGenerate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/openapi-generate" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="openApiGenerate" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="catcafe-sample:openapi-generate [openApiValidate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/openapi-generate" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="openApiValidate" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ApiApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="CatCafe-Sample.micro-api.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="mabubu0203.com.github.catcafe.api.ApiApp" />
@@ -247,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.catcafe-sample:openapi-generate [openApiGenerate]" />
+        <item itemvalue="Gradle.catcafe-sample:openapi-generate [openApiValidate]" />
+        <item itemvalue="Gradle.catcafe-sample:micro-site [generateClient]" />
         <item itemvalue="Gradle.catcafe-sample:micro-join [openApiGenerate]" />
         <item itemvalue="Gradle.catcafe-sample:micro-join [openApiValidate]" />
-        <item itemvalue="Gradle.catcafe-sample:micro-site [generateClient]" />
-        <item itemvalue="Gradle.catcafe-sample:micro-api [openApiGenerate]" />
-        <item itemvalue="Gradle.catcafe-sample:micro-api [openApiValidate]" />
       </list>
     </recent_temporary>
   </component>
