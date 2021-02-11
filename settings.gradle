@@ -7,6 +7,6 @@ rootProject.name = 'CatCafe-Sample'
 include(
 
         'micro-api',
-        'micro-join',
-        'micro-site'
+        'micro-site',
+        'openapi-generate'
 )
