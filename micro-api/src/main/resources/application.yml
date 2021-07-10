@@ -1,11 +1,19 @@
 spring:
   profiles:
-    active: local
+    group:
+      development:
+        - "local"
+      production:
+        - "local"
+    default: "development"
 
 ---
 spring:
   application:
     name: micro-api
+  config:
+    activate:
+      on-profile: local
   devtools:
     livereload:
       enabled: true
@@ -15,14 +23,12 @@ spring:
       poll-interval: 1000
   main:
     web-application-type: reactive
-  resources:
-    chain:
-      html-application-cache: true
-      enabled: true
-      strategy:
-        content:
-          enabled: true
-          paths: /webjars/swagger-ui/**.*
+  web:
+    resources:
+      chain:
+        strategy:
+          content:
+            paths: /webjars/swagger-ui/**.*
   data:
     jpa:
       repositories:
@@ -119,7 +125,6 @@ springdoc:
       enabled: true
     resolve-schema-properties: true
   model-and-view-allowed: true
-  show-actuator: true
   swagger-ui:
     path: /swagger-ui.html
     displayOperationId: true
@@ -127,3 +132,4 @@ springdoc:
     display-request-duration: true
     showCommonExtensions: true
     showExtensions: true
+  show-actuator: true
