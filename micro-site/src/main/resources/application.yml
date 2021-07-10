@@ -13,14 +13,12 @@ spring:
     restart:
       enabled: true
       poll-interval: 1000
-  resources:
-    chain:
-      html-application-cache: true
-      enabled: true
-      strategy:
-        content:
-          enabled: true
-          paths: /webjars/swagger-ui/**.*
+  web:
+    resources:
+      chain:
+        strategy:
+          content:
+            paths: /webjars/swagger-ui/**.*
 
 server:
   port: 9011

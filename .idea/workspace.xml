@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6fbbc39-7bca-4e21-8e6d-6375f3e0667b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/CONTRIBUTING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/catcafe-sample.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mac/docker-redoc/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mac/docker-redoc/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mac/docker-swaggerui/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mac/docker-swaggerui/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/generate_api.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/generate_api.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/generate_openapi_json.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/generate_openapi_json.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/micro-api/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-site/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/micro-site/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-site/src/main/riot/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/micro-site/src/main/riot/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-site/src/main/riot/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/micro-site/src/main/riot/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openapi-generate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/openapi-generate/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-site/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-site/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +45,24 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
+                <item name="micro-api" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
+                <item name="micro-api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CatCafe-Sample" type="f1a62948:ProjectNode" />
+                <item name="micro-api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -107,7 +108,7 @@
       <recent name="$PROJECT_DIR$/apidoc/openapi/components" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.catcafe-sample [clean]">
+  <component name="RunManager" selected="Gradle.catcafe-sample:micro-api [bootRun]">
     <configuration name="catcafe-sample [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -129,6 +130,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="catcafe-sample:micro-api [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/micro-api" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="catcafe-sample:micro-site [generateClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -141,27 +163,6 @@
         <option name="taskNames">
           <list>
             <option value="generateClient" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="catcafe-sample:micro-site [npmInstall]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/micro-site" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="npmInstall" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.catcafe-sample:micro-api [bootRun]" />
         <item itemvalue="Gradle.catcafe-sample [clean]" />
         <item itemvalue="Gradle.catcafe-sample:micro-site [startDevelopment]" />
         <item itemvalue="Gradle.catcafe-sample:micro-site [webpackDevelopment]" />
         <item itemvalue="Gradle.catcafe-sample:micro-site [generateClient]" />
-        <item itemvalue="Gradle.catcafe-sample:micro-site [npmInstall]" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +264,7 @@
       <updated>1612872613949</updated>
       <workItem from="1612872616613" duration="1370000" />
       <workItem from="1612874028749" duration="5756000" />
-      <workItem from="1625891065014" duration="2784000" />
+      <workItem from="1625891065014" duration="3026000" />
     </task>
     <servers />
   </component>
